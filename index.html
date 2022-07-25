@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <div class="container">
+<header>
+  <div class="person flex">
+  <img class="jeremy" src="./images/image-jeremy.png">
+  <div class="jr">
+  <p>Report for</p>
+  <p class="robson">Jeremy Robson</p>
+  </div>
+</div>
+
+<div class="navigation">
+  <h4 class="daily">Daily</h4>
+  <h4 class="weekly">Weekly</h4>
+  <h4 class="monthly">Monthly</h4>
+</div>
+</header>
+
+<div class="item">
+<div class="icon-space orange">
+  <img class="icon " src="images/icon-work.svg">
+</div>
+  <section class="work section">
+  <div class="flex gap margin">
+    <p class="activity">Work</p>
+    <p class = "showmore">...</p>
+  </div>
+  <div class="flex gap">
+    <p class="current-work"></p> <!-- daily -->
+    <p class="previous-work"></p> <!-- daily -->
+  </div>
+ </section>
+</div>
+
+<div>
+ <div class="icon-space blue">
+  <img class="icon" src="images/icon-play.svg">
+</div> 
+ <section class="play section">
+  <div class="flex gap margin">
+    <p class="activity">Play</p>
+    <p class = "showmore">...</p>
+   </div> 
+  <div class="flex gap">
+    <p class="current-play"></p><!-- daily -->
+    <p class="previous-play"></p> <!-- daily -->
+  </div>
+</section>
+</div>
+
+<div>
+<div class="icon-space red">
+  <img class="icon " src="images/icon-study.svg">
+</div>
+ <section class="study section">
+  <div class="flex gap margin">
+    <p class="activity">Study</p>
+    <p class = "showmore">...</p>
+  </div>
+  <div class="flex gap">
+    <p class="current-study"></p><!-- daily -->
+    <p class="previous-study"> </p><!-- daily -->
+  </div>
+</section>
+</div>
+
+<div>
+<div class="icon-space green">
+  <img class="icon" src="images/icon-exercise.svg">
+</div> 
+ <section class="exercise section">
+  <div class="flex gap margin">
+    <p class="activity">Exercise</p>
+    <p class = "showmore">...</p>
+  </div>
+   <div class="flex gap">
+    <p class="current-exercise"> </p><!-- daily -->
+    <p class="previous-exercise"></p> <!-- daily -->
+  </div>
+</section>
+</div>
+
+<div>
+<div class="icon-space purple ">
+  <img class="icon " src="images/icon-social.svg">
+</div>
+ <section class="social section">
+  <div class="flex gap margin">
+    <p class="activity">Social</p Social</p>
+    <p class = "showmore">...</p>
+  </div>
+  <div class="flex gap">
+    <p class="current-social"></p><!-- daily -->
+    <p class="previous-social"></p><!-- daily -->
+  </div>
+</section>
+</div>
+
+<div>
+<div class="icon-space yellow">
+  <img class="icon " src="images/icon-self-care.svg">
+</div>
+<section class="selfcare section">
+  <div class="flex gap margin">
+   <p class="activity">Selfcare</p Self Care</p>
+   <p class = "showmore">...</p>
+   </div>
+  <div class="flex gap">
+   <p class="current-selfcare"> </p><!-- daily -->
+   <p class="previous-selfcare"></p> <!-- daily -->
+  </div>
+</section>
+</div>
+  
+ 
+  </div>
+</body>
+</html>
